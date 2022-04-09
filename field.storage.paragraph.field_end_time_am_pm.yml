@@ -1,0 +1,27 @@
+uuid: ae6eee36-8627-4230-8791-72b5c058da0d
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_end_time_am_pm
+field_name: field_end_time_am_pm
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: am
+      label: A.M.
+    -
+      value: pm
+      label: P.M.
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,124 @@
+uuid: 070d93e6-9f00-47b6-b3d6-c7e185bce7b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.players_pt_game_types.field_end_time_am_pm
+    - field.field.paragraph.players_pt_game_types.field_end_time_hour
+    - field.field.paragraph.players_pt_game_types.field_players_tax_game_type
+    - field.field.paragraph.players_pt_game_types.field_start_time_am_pm
+    - field.field.paragraph.players_pt_game_types.field_start_time_hour
+    - paragraphs.paragraphs_type.players_pt_game_types
+  module:
+    - conditional_fields
+    - field_group
+third_party_settings:
+  field_group:
+    group_end_time:
+      children:
+        - field_end_time_hour
+        - field_end_time_am_pm
+      label: 'End time'
+      region: content
+      parent_name: group_time
+      weight: 8
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        description: ''
+        required_fields: true
+        open: true
+    group_start_time:
+      children:
+        - field_start_time_hour
+        - field_start_time_am_pm
+      label: 'Start time'
+      region: content
+      parent_name: group_time
+      weight: 7
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        description: ''
+        required_fields: true
+    group_time:
+      children:
+        - group_start_time
+        - group_end_time
+      label: Time
+      region: content
+      parent_name: ''
+      weight: 1
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        description: ''
+        required_fields: true
+id: paragraph.players_pt_game_types.default
+targetEntityType: paragraph
+bundle: players_pt_game_types
+mode: default
+content:
+  field_end_time_am_pm:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_end_time_hour:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_players_tax_game_type:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_start_time_am_pm:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_start_time_hour:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        f717b28e-0ba5-4b1d-ac69-bf1142edbbd1:
+          entity_type: paragraph
+          bundle: players_pt_game_types
+          dependee: field_players_tax_game_type
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                target_id: '1'
+            effect: show
+            effect_options: {  }
+            selector: ''
+  group_start_time:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings:
+      conditional_fields: {  }
+hidden:
+  created: true
+  status: true

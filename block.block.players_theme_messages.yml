@@ -1,0 +1,22 @@
+uuid: 9d8e4a61-4e11-41c5-9d2f-f1d2131e8d58
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - players_theme
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: players_theme_messages
+theme: players_theme
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

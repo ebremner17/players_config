@@ -1,0 +1,31 @@
+uuid: d0999ce9-4e85-4c1a-a284-a8f96997c173
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_players_games
+    - node.type.players_games
+    - paragraphs.paragraphs_type.players_pt_game_types
+  module:
+    - entity_reference_revisions
+id: node.players_games.field_players_games
+field_name: field_players_games
+entity_type: node
+bundle: players_games
+label: Games
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      players_pt_game_types: players_pt_game_types
+    negate: 0
+    target_bundles_drag_drop:
+      players_pt_game_types:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

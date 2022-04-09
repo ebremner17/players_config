@@ -1,0 +1,41 @@
+uuid: 581634d0-e5a6-416c-a0ce-0628c65908f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.players_games.field_players_game_date
+    - field.field.node.players_games.field_players_games
+    - node.type.players_games
+  module:
+    - datetime
+    - entity_reference_revisions
+    - user
+id: node.players_games.default
+targetEntityType: node
+bundle: players_games
+mode: default
+content:
+  field_players_game_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_players_games:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

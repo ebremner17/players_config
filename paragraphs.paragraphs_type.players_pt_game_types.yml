@@ -1,0 +1,10 @@
+uuid: 7419c3bb-5c38-4517-82a2-912044557b04
+langcode: en
+status: true
+dependencies: {  }
+id: players_pt_game_types
+label: 'Game type'
+icon_uuid: null
+icon_default: null
+description: 'Game types for Players Inc'
+behavior_plugins: {  }

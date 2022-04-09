@@ -1,0 +1,20 @@
+uuid: 98ecee8e-2216-4ddc-9b06-11333a4a6534
+langcode: en
+status: true
+dependencies:
+  theme:
+    - players_theme
+_core:
+  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
+id: players_theme_local_actions
+theme: players_theme
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

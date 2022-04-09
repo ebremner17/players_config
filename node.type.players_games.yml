@@ -1,0 +1,17 @@
+uuid: 0c62f1e0-3d31-4522-8beb-ff38cc9a5f89
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Games
+type: players_games
+description: 'Games for Players Inc'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

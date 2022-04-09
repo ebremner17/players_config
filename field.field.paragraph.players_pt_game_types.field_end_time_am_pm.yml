@@ -1,0 +1,21 @@
+uuid: 2421a5d2-243f-449b-badc-a59559b5539c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_end_time_am_pm
+    - paragraphs.paragraphs_type.players_pt_game_types
+  module:
+    - options
+id: paragraph.players_pt_game_types.field_end_time_am_pm
+field_name: field_end_time_am_pm
+entity_type: paragraph
+bundle: players_pt_game_types
+label: 'End time (am or pm)'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

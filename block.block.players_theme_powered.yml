@@ -1,0 +1,22 @@
+uuid: 0df4fa9a-a5a8-40dd-ac56-7ac282f20c35
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - players_theme
+_core:
+  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
+id: players_theme_powered
+theme: players_theme
+region: header
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }
