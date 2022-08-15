@@ -1,0 +1,10 @@
+uuid: 1c42a4a8-ab56-4aed-b051-d800cc0164b8
+langcode: en
+status: true
+dependencies: {  }
+id: game_types
+label: 'Game types'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

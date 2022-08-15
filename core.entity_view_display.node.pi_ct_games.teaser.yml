@@ -1,0 +1,24 @@
+uuid: 2dc96a02-80de-439d-a003-b294487ce9b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pi_ct_games.field_game_date
+    - field.field.node.pi_ct_games.field_game_types
+    - node.type.pi_ct_games
+  module:
+    - user
+id: node.pi_ct_games.teaser
+targetEntityType: node
+bundle: pi_ct_games
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_game_date: true
+  field_game_types: true

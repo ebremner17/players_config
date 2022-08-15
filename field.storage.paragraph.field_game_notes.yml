@@ -1,0 +1,19 @@
+uuid: b3b04929-72ee-4f69-9ef5-4d3283176d67
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_game_notes
+field_name: field_game_notes
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

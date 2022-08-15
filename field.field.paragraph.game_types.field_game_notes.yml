@@ -1,0 +1,21 @@
+uuid: fa3334c3-7006-4928-95fc-418065e57087
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_game_notes
+    - paragraphs.paragraphs_type.game_types
+  module:
+    - text
+id: paragraph.game_types.field_game_notes
+field_name: field_game_notes
+entity_type: paragraph
+bundle: game_types
+label: Notes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

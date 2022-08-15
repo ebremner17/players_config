@@ -1,4 +1,4 @@
-uuid: e88951e8-f99c-4433-bc24-c7dd7efd4543
+uuid: 9a54f01c-1255-4943-9e35-1b30c9c54fa0
 langcode: en
 status: true
 dependencies:
@@ -9,11 +9,11 @@ dependencies:
   theme:
     - players_theme
 _core:
-  default_config_hash: jzu74Q7R0QWgw8IniA9HZRSb_a8RPak1M0q5J-VGkZI
+  default_config_hash: gmxYWWHmgbe0Pnv8y48ZLSLH5mEHejOjAP6RLxUfdzU
 id: players_theme_account_menu
 theme: players_theme
-region: header
-weight: 0
+region: secondary_menu
+weight: -4
 provider: null
 plugin: 'system_menu_block:account'
 settings:

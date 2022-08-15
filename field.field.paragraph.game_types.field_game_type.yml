@@ -1,0 +1,21 @@
+uuid: 86dbcc3d-032c-40d3-8041-0bade4ee96e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_game_type
+    - paragraphs.paragraphs_type.game_types
+  module:
+    - options
+id: paragraph.game_types.field_game_type
+field_name: field_game_type
+entity_type: paragraph
+bundle: game_types
+label: 'Game type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

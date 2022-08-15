@@ -1,0 +1,63 @@
+uuid: aefc339a-4d2c-4b9d-9b5b-2f8b42c3cc00
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.game_types.field_end_time
+    - field.field.paragraph.game_types.field_end_time_am_pm
+    - field.field.paragraph.game_types.field_game_notes
+    - field.field.paragraph.game_types.field_game_type
+    - field.field.paragraph.game_types.field_start_time
+    - field.field.paragraph.game_types.field_start_time_am_pm
+    - paragraphs.paragraphs_type.game_types
+  module:
+    - options
+    - text
+id: paragraph.game_types.default
+targetEntityType: paragraph
+bundle: game_types
+mode: default
+content:
+  field_end_time:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_end_time_am_pm:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_game_notes:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_game_type:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_start_time:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_start_time_am_pm:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

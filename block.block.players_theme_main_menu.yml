@@ -1,4 +1,4 @@
-uuid: 37f9034f-e306-4985-abee-be1df5df0df8
+uuid: fe09ff7f-72d5-487c-819d-c15ead20c4db
 langcode: en
 status: true
 dependencies:
@@ -9,10 +9,10 @@ dependencies:
   theme:
     - players_theme
 _core:
-  default_config_hash: _G1IfGESk7WqvVCi7B3VJxhSY0YICgv1OmuVPJqO8bE
+  default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
 id: players_theme_main_menu
 theme: players_theme
-region: header
+region: primary_menu
 weight: 0
 provider: null
 plugin: 'system_menu_block:main'
@@ -22,6 +22,6 @@ settings:
   label_display: '0'
   provider: system
   level: 1
-  depth: 1
-  expand_all_items: false
+  depth: 2
+  expand_all_items: true
 visibility: {  }

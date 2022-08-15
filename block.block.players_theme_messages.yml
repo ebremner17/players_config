@@ -1,4 +1,4 @@
-uuid: 9d8e4a61-4e11-41c5-9d2f-f1d2131e8d58
+uuid: 406790dd-30d4-445d-b917-d66730f23499
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   theme:
     - players_theme
 _core:
-  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
 id: players_theme_messages
 theme: players_theme
 region: highlighted
-weight: 0
+weight: -5
 provider: null
 plugin: system_messages_block
 settings:

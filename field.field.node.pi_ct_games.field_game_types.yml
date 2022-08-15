@@ -1,0 +1,31 @@
+uuid: fda00105-0012-4b8b-b11f-d4778d6ed0f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_game_types
+    - node.type.pi_ct_games
+    - paragraphs.paragraphs_type.game_types
+  module:
+    - entity_reference_revisions
+id: node.pi_ct_games.field_game_types
+field_name: field_game_types
+entity_type: node
+bundle: pi_ct_games
+label: 'Game types'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      game_types: game_types
+    negate: 0
+    target_bundles_drag_drop:
+      game_types:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

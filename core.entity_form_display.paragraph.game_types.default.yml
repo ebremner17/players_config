@@ -1,0 +1,93 @@
+uuid: 01287318-ae6a-4139-8b3e-14c935e747dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.game_types.field_end_time
+    - field.field.paragraph.game_types.field_end_time_am_pm
+    - field.field.paragraph.game_types.field_game_notes
+    - field.field.paragraph.game_types.field_game_type
+    - field.field.paragraph.game_types.field_start_time
+    - field.field.paragraph.game_types.field_start_time_am_pm
+    - paragraphs.paragraphs_type.game_types
+  module:
+    - field_group
+    - text
+third_party_settings:
+  field_group:
+    group_start_time:
+      children:
+        - field_start_time
+        - field_start_time_am_pm
+      label: 'Start time'
+      region: content
+      parent_name: ''
+      weight: 1
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        description: ''
+        required_fields: true
+    group_end_time:
+      children:
+        - field_end_time
+        - field_end_time_am_pm
+      label: 'End time'
+      region: content
+      parent_name: ''
+      weight: 2
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        description: ''
+        required_fields: true
+id: paragraph.game_types.default
+targetEntityType: paragraph
+bundle: game_types
+mode: default
+content:
+  field_end_time:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_end_time_am_pm:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_game_notes:
+    type: text_textarea
+    weight: 5
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_game_type:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_start_time:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_start_time_am_pm:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

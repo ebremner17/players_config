@@ -1,8 +1,0 @@
-uuid: 67cfda98-8a60-45b0-94a6-a3be9f2057ba
-langcode: en
-status: true
-dependencies: {  }
-name: 'Game type'
-vid: players_tax_game_type
-description: 'Type of games'
-weight: 0

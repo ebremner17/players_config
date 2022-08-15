@@ -1,4 +1,4 @@
-uuid: a73fcad7-8918-4673-a6e9-960c4a9582c1
+uuid: 90a249d9-9656-4ba3-90b7-9f3cb766fdad
 langcode: en
 status: true
 dependencies:
@@ -7,10 +7,10 @@ dependencies:
   theme:
     - players_theme
 _core:
-  default_config_hash: y0bXRvKYQQKkf_RVxA3aOPGpIfKKsDOzzrWYCgjxJ9Y
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
 id: players_theme_breadcrumbs
 theme: players_theme
-region: header
+region: breadcrumb
 weight: 0
 provider: null
 plugin: system_breadcrumb_block

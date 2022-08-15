@@ -1,0 +1,21 @@
+uuid: f1124c40-1e33-4ae5-86b0-289e1f8fbdee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_start_time_am_pm
+    - paragraphs.paragraphs_type.game_types
+  module:
+    - options
+id: paragraph.game_types.field_start_time_am_pm
+field_name: field_start_time_am_pm
+entity_type: paragraph
+bundle: game_types
+label: 'Start time (am or pm)'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

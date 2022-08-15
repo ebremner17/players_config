@@ -1,0 +1,24 @@
+uuid: f03ca805-109e-499b-9a2c-28c9f7b4e397
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_game_date
+    - node.type.pi_ct_games
+  module:
+    - datetime
+id: node.pi_ct_games.field_game_date
+field_name: field_game_date
+entity_type: node
+bundle: pi_ct_games
+label: 'Game Date'
+description: 'Enter a date for the game.'
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

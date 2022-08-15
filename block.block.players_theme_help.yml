@@ -1,4 +1,4 @@
-uuid: 6ef547ea-8512-424a-b2cf-e83c31832c76
+uuid: d8a32537-bf58-467a-8a53-48d136fb9ee0
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   theme:
     - players_theme
 _core:
-  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
 id: players_theme_help
 theme: players_theme
-region: content
-weight: -30
+region: content_above
+weight: 0
 provider: null
 plugin: help_block
 settings:

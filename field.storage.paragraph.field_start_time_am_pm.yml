@@ -1,4 +1,4 @@
-uuid: 1ae2c469-918d-4fe9-a6e9-e691d5e210fb
+uuid: 00628796-e0d0-4aec-81fb-31db5d6c7f9d
 langcode: en
 status: true
 dependencies:
@@ -12,11 +12,11 @@ type: list_string
 settings:
   allowed_values:
     -
-      value: am
-      label: A.M.
+      value: a.m.
+      label: a.m.
     -
-      value: pm
-      label: P.M.
+      value: p.m.
+      label: p.m.
   allowed_values_function: ''
 module: options
 locked: false

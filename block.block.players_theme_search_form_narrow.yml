@@ -1,0 +1,23 @@
+uuid: 75a1eb3b-3811-4bcf-85aa-d0c8facfe9a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - players_theme
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: players_theme_search_form_narrow
+theme: players_theme
+region: primary_menu
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

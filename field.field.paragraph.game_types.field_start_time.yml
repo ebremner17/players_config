@@ -1,0 +1,21 @@
+uuid: 9661b99d-0957-4ce4-9aee-24206d06dded
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_start_time
+    - paragraphs.paragraphs_type.game_types
+  module:
+    - options
+id: paragraph.game_types.field_start_time
+field_name: field_start_time
+entity_type: paragraph
+bundle: game_types
+label: 'Start time (hour)'
+description: 'Choose the start time for the game.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
