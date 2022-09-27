@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.user.compact
     - field.field.user.user.field_user_first_name
     - field.field.user.user.field_user_last_name
+    - field.field.user.user.field_user_phone
   module:
     - user
 _core:
@@ -18,4 +19,5 @@ content: {  }
 hidden:
   field_user_first_name: true
   field_user_last_name: true
+  field_user_phone: true
   member_for: true
