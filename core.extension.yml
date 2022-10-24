@@ -36,6 +36,7 @@ module:
   path: 0
   path_alias: 0
   phone_number: 0
+  players_cfg: 0
   players_reserve: 0
   rdf: 0
   search: 0
