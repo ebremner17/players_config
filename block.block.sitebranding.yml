@@ -1,4 +1,4 @@
-uuid: 6fe985bf-0bb5-48ac-8f14-5018328e9f55
+uuid: 7baf3268-1dc2-4e76-8ae3-958986d9a661
 langcode: en
 status: true
 dependencies:
@@ -6,9 +6,7 @@ dependencies:
     - system
   theme:
     - players_theme
-_core:
-  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
-id: players_theme_site_branding
+id: sitebranding
 theme: players_theme
 region: header
 weight: 0
@@ -19,7 +17,7 @@ settings:
   label: 'Site branding'
   label_display: '0'
   provider: system
-  use_site_logo: true
-  use_site_name: true
+  use_site_logo: false
+  use_site_name: false
   use_site_slogan: false
 visibility: {  }
