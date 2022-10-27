@@ -26,6 +26,9 @@ module:
   help: 0
   history: 0
   image: 0
+  layout_builder: 0
+  layout_builder_styles: 0
+  layout_discovery: 0
   link: 0
   menu_link_content: 0
   menu_ui: 0
@@ -39,6 +42,7 @@ module:
   players_cfg: 0
   players_reserve: 0
   rdf: 0
+  responsive_menus: 0
   search: 0
   shortcut: 0
   system: 0
@@ -56,4 +60,5 @@ theme:
   olivero: 0
   claro: 0
   players_theme: 0
+  seven: 0
 profile: standard

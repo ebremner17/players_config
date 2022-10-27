@@ -1,0 +1,12 @@
+uuid: 09f0e6a4-96c6-417f-a4ee-ce3cb60b90ca
+langcode: en
+status: true
+dependencies: {  }
+id: players_lbs_full_width
+label: 'Full width'
+classes: players-full-width
+type: section
+group: default
+block_restrictions: {  }
+layout_restrictions: {  }
+weight: 0

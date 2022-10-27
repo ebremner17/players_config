@@ -1,0 +1,12 @@
+uuid: 89fd058c-46aa-4ead-8b9b-4545c5626dfd
+langcode: en
+status: true
+dependencies: {  }
+id: players_lbs_contained_width
+label: 'Contained width'
+classes: players-contained-width
+type: section
+group: default
+block_restrictions: {  }
+layout_restrictions: {  }
+weight: 0

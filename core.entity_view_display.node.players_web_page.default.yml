@@ -1,0 +1,20 @@
+uuid: 816db351-9ea3-468a-946d-2ab1e0d3aff1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.players_web_page
+  module:
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+id: node.players_web_page.default
+targetEntityType: node
+bundle: players_web_page
+mode: default
+content: {  }
+hidden:
+  links: true

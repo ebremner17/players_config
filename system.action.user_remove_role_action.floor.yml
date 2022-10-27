@@ -1,0 +1,14 @@
+uuid: 452b4137-4fe2-48fa-8b25-d85750c4d09d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.floor
+  module:
+    - user
+id: user_remove_role_action.floor
+label: 'Remove the Floor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: floor
