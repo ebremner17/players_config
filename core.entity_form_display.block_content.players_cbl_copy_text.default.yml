@@ -1,0 +1,40 @@
+uuid: b74ddf92-d176-4055-9bc2-9564f726c14f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.players_cbl_copy_text
+    - field.field.block_content.players_cbl_copy_text.body
+    - field.field.block_content.players_cbl_copy_text.field_background_colour
+  module:
+    - text
+id: block_content.players_cbl_copy_text.default
+targetEntityType: block_content
+bundle: players_cbl_copy_text
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_background_colour:
+    type: options_select
+    weight: 27
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

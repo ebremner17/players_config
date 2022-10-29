@@ -1,4 +1,4 @@
-uuid: 8c027ec9-a858-4e75-a8e3-8779867131da
+uuid: 102e96c8-6644-436d-a648-7f0f68d294d8
 langcode: en
 status: true
 dependencies:
@@ -6,9 +6,9 @@ dependencies:
     - filter.format.full_html
   module:
     - filter
-id: floor
-label: Floor
-weight: 4
+id: dealer
+label: dealer
+weight: 6
 is_admin: null
 permissions:
   - 'use text format full_html'

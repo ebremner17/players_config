@@ -1,0 +1,14 @@
+uuid: a98152ae-efd5-45a8-ad50-c16f9bebb109
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.dealer
+  module:
+    - user
+id: user_remove_role_action.dealer
+label: 'Remove the dealer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: dealer

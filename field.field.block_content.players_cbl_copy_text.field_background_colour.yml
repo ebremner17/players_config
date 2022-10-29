@@ -1,0 +1,21 @@
+uuid: 422853ac-33a2-4349-9210-e75a05435c8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.players_cbl_copy_text
+    - field.storage.block_content.field_background_colour
+  module:
+    - options
+id: block_content.players_cbl_copy_text.field_background_colour
+field_name: field_background_colour
+entity_type: block_content
+bundle: players_cbl_copy_text
+label: 'Background colour'
+description: 'Select the colour for the background.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

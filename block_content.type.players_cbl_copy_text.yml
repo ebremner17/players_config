@@ -1,0 +1,8 @@
+uuid: 2f5c03c7-5ed4-4b2b-bc04-b9da839799aa
+langcode: en
+status: true
+dependencies: {  }
+id: players_cbl_copy_text
+label: 'Copy text'
+revision: 1
+description: ''
