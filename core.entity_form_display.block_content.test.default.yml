@@ -1,16 +1,15 @@
-uuid: b74ddf92-d176-4055-9bc2-9564f726c14f
+uuid: 4de03197-3922-4b26-ae60-58145c594258
 langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.players_cbl_copy_text
-    - field.field.block_content.players_cbl_copy_text.body
-    - field.field.block_content.players_cbl_copy_text.field_background_colour
+    - block_content.type.test
+    - field.field.block_content.test.body
   module:
     - text
-id: block_content.players_cbl_copy_text.default
+id: block_content.test.default
 targetEntityType: block_content
-bundle: players_cbl_copy_text
+bundle: test
 mode: default
 content:
   body:
@@ -22,12 +21,6 @@ content:
       summary_rows: 3
       placeholder: ''
       show_summary: false
-    third_party_settings: {  }
-  field_background_colour:
-    type: options_select
-    weight: 27
-    region: content
-    settings: {  }
     third_party_settings: {  }
   info:
     type: string_textfield

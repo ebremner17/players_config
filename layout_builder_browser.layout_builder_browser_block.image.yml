@@ -1,0 +1,11 @@
+uuid: 619d8c2b-3e4e-4664-be69-cb884a42b2cb
+langcode: en
+status: true
+dependencies: {  }
+id: image
+block_id: 'inline_block:cbl_image'
+category: lbb_cat_content
+label: Image
+image_path: ''
+image_alt: ''
+weight: -100

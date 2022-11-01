@@ -3,18 +3,35 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.players_web_page.layout_builder__layout
     - node.type.players_web_page
   module:
     - layout_builder
+    - layout_builder_restrictions
     - user
 third_party_settings:
   layout_builder:
     enabled: true
     allow_custom: true
+  layout_builder_restrictions:
+    allowed_block_categories: {  }
+    entity_view_mode_restriction:
+      allowed_layouts:
+        - players_1_column
+        - players_2_column
+        - players_3_column
+        - players_4_column
+        - players_5_column
+        - players_inverted_l_right
+        - players_inverted_l_left
+      denylisted_blocks: {  }
+      allowlisted_blocks: {  }
+      restricted_categories: {  }
 id: node.players_web_page.default
 targetEntityType: node
 bundle: players_web_page
 mode: default
 content: {  }
 hidden:
+  layout_builder__layout: true
   links: true

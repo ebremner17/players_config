@@ -1,0 +1,15 @@
+uuid: aaae1c88-0cea-4c31-9e0e-95721e10d05d
+langcode: en
+status: true
+dependencies: {  }
+name: is_players_medium
+label: 'Players medium'
+effects:
+  dc947014-6548-4fb4-801f-eb69a20ca756:
+    uuid: dc947014-6548-4fb4-801f-eb69a20ca756
+    id: image_scale
+    weight: 1
+    data:
+      width: 480
+      height: null
+      upscale: true

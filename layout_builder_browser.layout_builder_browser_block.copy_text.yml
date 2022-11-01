@@ -1,0 +1,11 @@
+uuid: c049b1db-b204-419d-bd40-ede5d1df74c1
+langcode: en
+status: true
+dependencies: {  }
+id: copy_text
+block_id: cbl_copy_text
+category: lbb_cat_content
+label: 'Copy text'
+image_path: ''
+image_alt: ''
+weight: -100

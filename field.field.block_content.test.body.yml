@@ -1,19 +1,19 @@
-uuid: 21da7624-792e-4bcb-857f-80e00de1ca7e
+uuid: f13044bc-5a2f-4d61-9c86-2b5ed031ab07
 langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.players_cbl_copy_text
+    - block_content.type.test
     - field.storage.block_content.body
   module:
     - text
-id: block_content.players_cbl_copy_text.body
+id: block_content.test.body
 field_name: body
 entity_type: block_content
-bundle: players_cbl_copy_text
+bundle: test
 label: Body
 description: ''
-required: true
+required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''

@@ -1,0 +1,29 @@
+uuid: 59d12d60-7a4b-4f92-bb7b-9e8cb53398c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.is_players_large
+    - image.style.is_players_medium
+  theme:
+    - players_theme
+id: ris_players_responsive
+label: 'Players responsive'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: '_original image_'
+    breakpoint_id: players_theme.x-large
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: is_players_large
+    breakpoint_id: players_theme.large
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: is_players_medium
+    breakpoint_id: players_theme.medium
+    multiplier: 1x
+breakpoint_group: players_theme
+fallback_image_style: is_players_large

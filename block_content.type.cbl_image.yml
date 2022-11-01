@@ -1,0 +1,8 @@
+uuid: a1e909df-cca5-48e1-9814-03bceab7636e
+langcode: en
+status: true
+dependencies: {  }
+id: cbl_image
+label: Image
+revision: 1
+description: ''

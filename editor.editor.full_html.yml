@@ -24,6 +24,11 @@ settings:
             - Subscript
             - '-'
             - RemoveFormat
+            - '-'
+            - TextColor
+            - BGColor
+            - Font
+            - FontSize
         -
           name: Linking
           items:
@@ -50,7 +55,12 @@ settings:
           items:
             - ShowBlocks
             - Source
-  plugins: {  }
+  plugins:
+    font:
+      font_names: ''
+      font_sizes: ''
+    colorbutton:
+      colors: '000000,FFFFFF'
 image_upload:
   status: true
   scheme: public

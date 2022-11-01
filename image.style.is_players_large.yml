@@ -1,0 +1,15 @@
+uuid: 44e49db5-3e27-4c20-bea6-94980808a641
+langcode: en
+status: true
+dependencies: {  }
+name: is_players_large
+label: 'Players large'
+effects:
+  5e352e10-ef8b-4558-8f07-470b12c836dd:
+    uuid: 5e352e10-ef8b-4558-8f07-470b12c836dd
+    id: image_scale
+    weight: 1
+    data:
+      width: 796
+      height: null
+      upscale: true

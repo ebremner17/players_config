@@ -1,0 +1,7 @@
+uuid: ed4f7b4e-8f04-4aba-8570-056b9e47c9bb
+langcode: en
+status: true
+dependencies: {  }
+id: lbb_cat_content
+label: Content
+weight: null
