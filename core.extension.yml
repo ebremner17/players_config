@@ -9,7 +9,9 @@ module:
   block_content: 0
   breakpoint: 0
   ckeditor: 0
+  ckeditor_font: 0
   color_picker: 0
+  colorbutton: 0
   comment: 0
   config: 0
   contact: 0
@@ -45,6 +47,7 @@ module:
   node: 0
   options: 0
   page_cache: 0
+  panelbutton: 0
   path: 0
   path_alias: 0
   phone_number: 0

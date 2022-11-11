@@ -19,12 +19,26 @@ settings:
           items:
             - Bold
             - Italic
+            - Underline
             - Strike
             - Superscript
             - Subscript
             - '-'
+            - '-'
             - RemoveFormat
             - '-'
+            - TextColor
+            - BGColor
+            - Font
+            - FontSize
+            - '-'
+        -
+          name: Align
+          items:
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
         -
           name: Linking
           items:
@@ -51,7 +65,12 @@ settings:
           items:
             - ShowBlocks
             - Source
-  plugins: {  }
+  plugins:
+    font:
+      font_names: "Arial|Arial\r\nBaskerville|Baskerville\r\nBradley Hand|Bradley Hand\r\nBrush Script MT|Brush Script MT\r\nComic Sans MS|Comic Sans MS\r\nCourier|Courier\r\nGeorgia|Georgia\r\nGill Sans|Gill Sans\r\nHelvetica|Helvetica\r\nImpact|Impact\r\nLucida|Lucida\r\nLuminari|Luminari\r\nMonaco|Monaco\r\nPalatino|Palatino\r\nTahoma|Tahoma\r\nTimes New Roman|Times New Roman\r\nTrebuchet MS|Trebuchet MS\r\nVerdana|Verdana"
+      font_sizes: "12px|12px\r\n14px|14px\r\n16px|16px\r\n18px|18px\r\n20px|20px\r\n22px|22px\r\n24px|24px\r\n26px|26px\r\n28px|28px\r\n30px|30px"
+    colorbutton:
+      colors: ''
 image_upload:
   status: true
   scheme: public
