@@ -6,6 +6,6 @@ id: copy_text
 block_id: cbl_copy_text
 category: lbb_cat_content
 label: 'Copy text'
-image_path: ''
-image_alt: ''
-weight: -100
+image_path: /themes/custom/players_theme/images/icons/text.svg
+image_alt: 'Copy text'
+weight: -1

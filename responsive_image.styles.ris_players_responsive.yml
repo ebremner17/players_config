@@ -5,6 +5,8 @@ dependencies:
   config:
     - image.style.is_players_large
     - image.style.is_players_medium
+    - image.style.is_players_small
+    - image.style.is_players_xsmall
   theme:
     - players_theme
 id: ris_players_responsive
@@ -24,6 +26,16 @@ image_style_mappings:
     image_mapping_type: image_style
     image_mapping: is_players_medium
     breakpoint_id: players_theme.medium
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: is_players_small
+    breakpoint_id: players_theme.small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: is_players_xsmall
+    breakpoint_id: players_theme.x-small
     multiplier: 1x
 breakpoint_group: players_theme
 fallback_image_style: is_players_large

@@ -1,0 +1,22 @@
+uuid: 84221b51-7886-44d6-8060-7fea403891d3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pa_web_page
+label: 'Web page'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  e4472cfc-4938-44df-86b2-8610d3a0d2e3:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: e4472cfc-4938-44df-86b2-8610d3a0d2e3
+    context_mapping:
+      node: node
+    bundles:
+      players_web_page: players_web_page
+selection_logic: and
+weight: -5
+relationships: {  }

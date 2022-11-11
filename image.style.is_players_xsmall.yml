@@ -1,0 +1,15 @@
+uuid: 0058adf3-1c90-4b2f-aa30-14813c395baa
+langcode: en
+status: true
+dependencies: {  }
+name: is_players_xsmall
+label: 'Players extra small'
+effects:
+  d4fbaaeb-fbfd-4186-8155-dc7f396a257c:
+    uuid: d4fbaaeb-fbfd-4186-8155-dc7f396a257c
+    id: image_scale
+    weight: 1
+    data:
+      width: 400
+      height: null
+      upscale: true
