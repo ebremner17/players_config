@@ -10,14 +10,8 @@ field_name: field_game_type
 entity_type: paragraph
 type: list_string
 settings:
-  allowed_values:
-    -
-      value: '1/2 (300 max)'
-      label: '1/2 (300 max)'
-    -
-      value: '2/5 (500 max)'
-      label: '2/5 (500 max)'
-  allowed_values_function: ''
+  allowed_values: {  }
+  allowed_values_function: '_players_cfg_game_types'
 module: options
 locked: false
 cardinality: 1
