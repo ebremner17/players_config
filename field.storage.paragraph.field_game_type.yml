@@ -11,7 +11,7 @@ entity_type: paragraph
 type: list_string
 settings:
   allowed_values: {  }
-  allowed_values_function: '_players_cfg_game_types'
+  allowed_values_function: _players_cfg_game_types
 module: options
 locked: false
 cardinality: 1
