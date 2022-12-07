@@ -8,6 +8,7 @@ module:
   block: 0
   block_content: 0
   breakpoint: 0
+  captcha: 0
   ckeditor: 0
   ckeditor_font: 0
   color_picker: 0
@@ -54,6 +55,7 @@ module:
   players_cfg: 0
   players_reserve: 0
   rdf: 0
+  recaptcha: 0
   responsive_image: 0
   responsive_menus: 0
   search: 0
