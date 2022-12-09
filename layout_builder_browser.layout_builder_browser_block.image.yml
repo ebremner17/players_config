@@ -8,4 +8,4 @@ category: lbb_cat_content
 label: Image
 image_path: /themes/custom/players_theme/images/icons/image.svg
 image_alt: Image
-weight: 1
+weight: 0

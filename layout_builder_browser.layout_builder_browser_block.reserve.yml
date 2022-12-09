@@ -1,0 +1,11 @@
+uuid: c6d0e206-79fe-4bc7-8ef7-e339b9f5b41d
+langcode: en
+status: true
+dependencies: {  }
+id: reserve
+block_id: cbl_reserve
+category: lbb_cat_content
+label: Reserve
+image_path: /themes/custom/players_theme/images/icons/reserve.svg
+image_alt: Reserve
+weight: 1
