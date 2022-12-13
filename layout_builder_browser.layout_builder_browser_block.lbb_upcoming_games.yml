@@ -1,0 +1,11 @@
+uuid: 0b862cbb-d76a-4266-b54f-e0521f5822a1
+langcode: en
+status: true
+dependencies: {  }
+id: lbb_upcoming_games
+block_id: cbl_upcoming_games
+category: lbb_cat_content
+label: 'Upcoming Games'
+image_path: /themes/custom/players_theme/images/icons/futuregames.svg
+image_alt: 'Upcoming games'
+weight: -100
