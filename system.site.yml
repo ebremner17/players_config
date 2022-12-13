@@ -3,13 +3,13 @@ _core:
 langcode: en
 uuid: 16cdb629-2f4e-49fa-9360-f4b05cda97b3
 name: 'Player''s Inc.'
-mail: eric_bremner@bell.net
+mail: virginia@playersinc.ca
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node/10
+  front: /home
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
-mail_notification: eric_bremner@bell.net
+mail_notification: virginia@playersinc.ca
