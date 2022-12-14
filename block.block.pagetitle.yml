@@ -1,4 +1,4 @@
-uuid: 02ef06d2-9c27-4171-baa2-dda57e46e6db
+uuid: 7c86086c-163c-449d-9cfd-d0bf4d6de220
 langcode: en
 status: true
 dependencies:
@@ -6,12 +6,10 @@ dependencies:
     - system
   theme:
     - players_theme
-_core:
-  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
-id: players_theme_page_title
+id: pagetitle
 theme: players_theme
-region: content_above
-weight: -5
+region: content
+weight: -6
 provider: null
 plugin: page_title_block
 settings:

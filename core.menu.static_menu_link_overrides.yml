@@ -8,50 +8,50 @@ definitions:
     expanded: false
     enabled: true
   system__admin_content:
-    weight: -74
     menu_name: admin
     parent: system.admin
+    weight: -74
     expanded: false
     enabled: true
   system__admin_structure:
-    weight: -73
     menu_name: admin
     parent: system.admin
+    weight: -73
     expanded: false
     enabled: true
   system__themes_page:
-    weight: -72
     menu_name: admin
     parent: system.admin
+    weight: -72
     expanded: false
     enabled: true
   system__modules_list:
-    weight: -71
     menu_name: admin
     parent: system.admin
+    weight: -71
     expanded: false
     enabled: true
   system__admin_config:
-    weight: -70
     menu_name: admin
     parent: system.admin
+    weight: -70
     expanded: false
     enabled: true
   entity__user__collection:
-    weight: -69
     menu_name: admin
     parent: system.admin
+    weight: -69
     expanded: false
     enabled: true
   system__admin_reports:
-    weight: -68
     menu_name: admin
     parent: system.admin
+    weight: -68
     expanded: false
     enabled: true
   help__main:
-    weight: -67
     menu_name: admin
     parent: system.admin
+    weight: -67
     expanded: false
     enabled: true
