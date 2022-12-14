@@ -1,0 +1,30 @@
+uuid: 9b5ecaf5-bacc-4dea-a3ad-7ba6140f17f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - players_cfg
+title: 'Default cron handler'
+id: players_cfg_cron
+weight: 0
+module: players_cfg
+callback: players_cfg_cron
+scheduler:
+  id: crontab
+  configuration:
+    rules:
+      - '0 5 * * *'
+    catch_up: 0
+launcher:
+  id: serial
+  configuration:
+    timeouts:
+      lock_timeout: 3600
+    launcher:
+      thread: 0
+logger:
+  id: database
+  configuration:
+    method: '3'
+    expire: 1209600
+    retain: 1000
