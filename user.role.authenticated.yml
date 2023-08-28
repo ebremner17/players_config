@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - filter.format.basic_html
+    - filter.format.tf_marketing_item
   module:
     - comment
     - contact
@@ -29,4 +30,5 @@ permissions:
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'use text format tf_marketing_item'
   - 'view media'
