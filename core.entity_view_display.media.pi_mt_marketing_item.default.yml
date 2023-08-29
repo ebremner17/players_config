@@ -1,0 +1,29 @@
+uuid: dd3a2390-7b51-454f-b3f8-039976bf0fb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.pi_mt_marketing_item.field_media_image_2
+    - media.type.pi_mt_marketing_item
+    - responsive_image.styles.ris_players_responsive
+  module:
+    - responsive_image
+id: media.pi_mt_marketing_item.default
+targetEntityType: media
+bundle: pi_mt_marketing_item
+mode: default
+content:
+  field_media_image_2:
+    type: responsive_image
+    label: visually_hidden
+    settings:
+      responsive_image_style: ris_players_responsive
+      image_link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

@@ -1,0 +1,13 @@
+uuid: 0586043a-69b0-48d6-8f5f-ebbca39a4963
+langcode: en
+status: true
+dependencies: {  }
+id: pi_mt_marketing_item
+label: 'Marketing item'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_2
+field_map: {  }

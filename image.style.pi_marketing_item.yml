@@ -1,0 +1,15 @@
+uuid: a74be50d-1658-4ba8-b87d-749de4044de9
+langcode: en
+status: true
+dependencies: {  }
+name: pi_marketing_item
+label: 'Marketing item'
+effects:
+  690de300-7728-4cd3-91d0-47cf048e316e:
+    uuid: 690de300-7728-4cd3-91d0-47cf048e316e
+    id: image_scale
+    weight: 1
+    data:
+      width: 400
+      height: 400
+      upscale: true

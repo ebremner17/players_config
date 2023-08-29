@@ -1,0 +1,32 @@
+uuid: 09f2e5ea-9a6f-4783-bbe1-33de92cc3a58
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.pi_mt_marketing_item.field_media_image_2
+    - image.style.medium
+    - media.type.pi_mt_marketing_item
+  module:
+    - image
+id: media.pi_mt_marketing_item.media_library
+targetEntityType: media
+bundle: pi_mt_marketing_item
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_media_image_2: true
+  name: true
+  uid: true
