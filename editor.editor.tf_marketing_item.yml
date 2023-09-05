@@ -18,6 +18,7 @@ settings:
             - Bold
             - Italic
             - Format
+            - FontSize
         -
           name: Links
           items:
@@ -32,7 +33,10 @@ settings:
           name: Tools
           items:
             - Source
-  plugins: {  }
+  plugins:
+    font:
+      font_names: ''
+      font_sizes: "12px|12px\r\n14px|14px\r\n16px|16px\r\n18px|18px\r\n20px|20px\r\n22px|22px\r\n24px|24px\r\n26px|26px\r\n28px|28px\r\n30px|30px"
 image_upload:
   status: false
   scheme: public
