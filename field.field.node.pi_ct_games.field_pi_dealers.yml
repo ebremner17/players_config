@@ -1,0 +1,25 @@
+uuid: e188770c-9e0f-4501-ab14-9e147870aac1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pi_dealers
+    - node.type.pi_ct_games
+id: node.pi_ct_games.field_pi_dealers
+field_name: field_pi_dealers
+entity_type: node
+bundle: pi_ct_games
+label: Dealers
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: pi_view_dealers
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

@@ -5,11 +5,64 @@ dependencies:
   config:
     - field.field.node.pi_ct_games.field_game_date
     - field.field.node.pi_ct_games.field_game_types
+    - field.field.node.pi_ct_games.field_pi_dealers
+    - field.field.node.pi_ct_games.field_pi_floor
+    - field.field.node.pi_ct_games.field_pi_food
     - node.type.pi_ct_games
   module:
     - datetime
+    - field_group
     - paragraphs
     - path
+    - text
+third_party_settings:
+  field_group:
+    group_staff:
+      children:
+        - field_pi_floor
+        - field_pi_dealers
+      label: Staff
+      region: content
+      parent_name: ''
+      weight: 8
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
+    group_food:
+      children:
+        - field_pi_food
+      label: Food
+      region: content
+      parent_name: ''
+      weight: 9
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
+    group_games:
+      children:
+        - field_game_types
+      label: Games
+      region: content
+      parent_name: ''
+      weight: 10
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
 id: node.pi_ct_games.default
 targetEntityType: node
 bundle: pi_ct_games
@@ -17,19 +70,19 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 10
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
   field_game_date:
     type: datetime_default
-    weight: 121
+    weight: 7
     region: content
     settings: {  }
     third_party_settings: {  }
   field_game_types:
     type: paragraphs
-    weight: 122
+    weight: 11
     region: content
     settings:
       title: Paragraph
@@ -45,36 +98,64 @@ content:
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
     third_party_settings: {  }
+  field_pi_dealers:
+    type: entity_reference_autocomplete
+    weight: 10
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_pi_floor:
+    type: entity_reference_autocomplete
+    weight: 9
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_pi_food:
+    type: text_textarea
+    weight: 11
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    weight: 15
+    weight: 3
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 120
+    weight: 6
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    weight: 16
+    weight: 4
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: -5
+    weight: 0
     region: content
     settings:
       size: 60
@@ -82,7 +163,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 1
     region: content
     settings:
       match_operator: CONTAINS

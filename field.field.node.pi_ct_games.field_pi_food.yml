@@ -1,0 +1,21 @@
+uuid: 02ed0be6-4807-427b-aa91-df2d216cd3bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pi_food
+    - node.type.pi_ct_games
+  module:
+    - text
+id: node.pi_ct_games.field_pi_food
+field_name: field_pi_food
+entity_type: node
+bundle: pi_ct_games
+label: Food
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

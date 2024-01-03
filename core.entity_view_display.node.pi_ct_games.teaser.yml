@@ -6,6 +6,9 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.pi_ct_games.field_game_date
     - field.field.node.pi_ct_games.field_game_types
+    - field.field.node.pi_ct_games.field_pi_dealers
+    - field.field.node.pi_ct_games.field_pi_floor
+    - field.field.node.pi_ct_games.field_pi_food
     - node.type.pi_ct_games
   module:
     - user
@@ -22,3 +25,6 @@ content:
 hidden:
   field_game_date: true
   field_game_types: true
+  field_pi_dealers: true
+  field_pi_floor: true
+  field_pi_food: true

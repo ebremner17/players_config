@@ -1,0 +1,20 @@
+uuid: f6beb6f3-abe4-455b-9ee7-cac1c860cd7f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - user
+id: node.field_pi_floor
+field_name: field_pi_floor
+entity_type: node
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

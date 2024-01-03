@@ -5,10 +5,14 @@ dependencies:
   config:
     - field.field.node.pi_ct_games.field_game_date
     - field.field.node.pi_ct_games.field_game_types
+    - field.field.node.pi_ct_games.field_pi_dealers
+    - field.field.node.pi_ct_games.field_pi_floor
+    - field.field.node.pi_ct_games.field_pi_food
     - node.type.pi_ct_games
   module:
     - datetime
     - entity_reference_revisions
+    - text
     - user
 id: node.pi_ct_games.default
 targetEntityType: node
@@ -32,6 +36,29 @@ content:
       link: ''
     third_party_settings: {  }
     weight: 102
+    region: content
+  field_pi_dealers:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_pi_floor:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_pi_food:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 105
     region: content
   links:
     settings: {  }
