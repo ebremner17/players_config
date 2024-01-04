@@ -1,0 +1,11 @@
+uuid: fc8c764c-f057-4e11-bebb-ce9928d1ef2d
+langcode: en
+status: true
+dependencies: {  }
+id: pi_lbb_promotions
+block_id: cbl_promotions_block
+category: lbb_cat_content
+label: Promotions
+image_path: /themes/custom/players_theme/images/icons/futuregames.svg
+image_alt: Promotions
+weight: -100

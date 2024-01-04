@@ -1,0 +1,21 @@
+uuid: 7b06e282-5e5f-4098-866b-195f2bb992f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pi_game_info
+    - node.type.pi_ct_games
+  module:
+    - text
+id: node.pi_ct_games.field_pi_game_info
+field_name: field_pi_game_info
+entity_type: node
+bundle: pi_ct_games
+label: 'Game info'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

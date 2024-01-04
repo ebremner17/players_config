@@ -1,0 +1,11 @@
+uuid: 571931e3-2143-4f37-85df-9095e135e870
+langcode: en
+status: true
+dependencies: {  }
+id: games
+block_id: cbl_games_block
+category: lbb_cat_content
+label: Games
+image_path: /themes/custom/players_theme/images/icons/futuregames.svg
+image_alt: games
+weight: -100

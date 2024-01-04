@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.pi_ct_games.field_pi_dealers
     - field.field.node.pi_ct_games.field_pi_floor
     - field.field.node.pi_ct_games.field_pi_food
+    - field.field.node.pi_ct_games.field_pi_game_info
     - node.type.pi_ct_games
   module:
     - datetime
@@ -24,7 +25,7 @@ third_party_settings:
       label: Staff
       region: content
       parent_name: ''
-      weight: 8
+      weight: 10
       format_type: details
       format_settings:
         classes: ''
@@ -54,7 +55,22 @@ third_party_settings:
       label: Games
       region: content
       parent_name: ''
-      weight: 10
+      weight: 11
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
+    group_game_information:
+      children:
+        - field_pi_game_info
+      label: 'Game Information'
+      region: content
+      parent_name: ''
+      weight: 8
       format_type: details
       format_settings:
         classes: ''
@@ -121,6 +137,14 @@ content:
   field_pi_food:
     type: text_textarea
     weight: 11
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_pi_game_info:
+    type: text_textarea
+    weight: 12
     region: content
     settings:
       rows: 5

@@ -1,0 +1,11 @@
+uuid: d99daacd-3037-4ca1-a1d0-9bd5a0dd06c1
+langcode: en
+status: true
+dependencies: {  }
+id: pi_lbb_tournaments
+block_id: cbl_tournaments_block
+category: lbb_cat_content
+label: Tournaments
+image_path: /themes/custom/players_theme/images/icons/futuregames.svg
+image_alt: Tournaments
+weight: -100

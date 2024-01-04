@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.pi_ct_games.field_pi_dealers
     - field.field.node.pi_ct_games.field_pi_floor
     - field.field.node.pi_ct_games.field_pi_food
+    - field.field.node.pi_ct_games.field_pi_game_info
     - node.type.pi_ct_games
   module:
     - user
@@ -28,3 +29,4 @@ hidden:
   field_pi_dealers: true
   field_pi_floor: true
   field_pi_food: true
+  field_pi_game_info: true

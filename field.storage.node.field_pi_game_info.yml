@@ -1,0 +1,19 @@
+uuid: 6b666c8e-b2c6-4227-9cb7-0f7571c44c63
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_pi_game_info
+field_name: field_pi_game_info
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

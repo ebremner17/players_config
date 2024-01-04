@@ -1,0 +1,22 @@
+uuid: 121cbbf7-b706-4004-9115-fc0e1e4f93f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pi_pa_games
+label: Games
+type: 'canonical_entities:node'
+pattern: 'games/[node:title]'
+selection_criteria:
+  351ebdfb-c732-495d-a055-de9ccce9a9b6:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 351ebdfb-c732-495d-a055-de9ccce9a9b6
+    context_mapping:
+      node: node
+    bundles:
+      pi_ct_games: pi_ct_games
+selection_logic: and
+weight: -5
+relationships: {  }
