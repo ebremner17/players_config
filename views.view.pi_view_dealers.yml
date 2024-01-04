@@ -296,6 +296,13 @@ display:
           search_fields:
             field_user_first_name: field_user_first_name
             field_user_last_name: field_user_last_name
+      row:
+        type: entity_reference
+        options:
+          default_field_elements: true
+          inline: {  }
+          separator: ' '
+          hide_empty: false
       display_extenders: {  }
     cache_metadata:
       max-age: -1
