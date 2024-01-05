@@ -5,14 +5,12 @@ dependencies:
   config:
     - field.field.paragraph.game_types.field_end_time
     - field.field.paragraph.game_types.field_end_time_am_pm
-    - field.field.paragraph.game_types.field_game_notes
     - field.field.paragraph.game_types.field_game_type
     - field.field.paragraph.game_types.field_start_time
     - field.field.paragraph.game_types.field_start_time_am_pm
     - paragraphs.paragraphs_type.game_types
   module:
     - options
-    - text
 id: paragraph.game_types.default
 targetEntityType: paragraph
 bundle: game_types
@@ -31,13 +29,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 4
-    region: content
-  field_game_notes:
-    type: text_default
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 5
     region: content
   field_game_type:
     type: list_default
