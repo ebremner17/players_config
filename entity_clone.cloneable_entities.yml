@@ -46,3 +46,5 @@ cloneable_entities:
   - entity_form_mode
   - entity_view_mode
   - date_format
+  - simple_sitemap
+  - simple_sitemap_type
