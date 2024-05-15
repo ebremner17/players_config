@@ -48,3 +48,4 @@ cloneable_entities:
   - date_format
   - simple_sitemap
   - simple_sitemap_type
+  - metatag_defaults
