@@ -1,0 +1,21 @@
+uuid: 2b555fc7-3557-4790-b3a4-21abdfb25742
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metatags
+    - node.type.players_ct_blog
+  module:
+    - metatag
+id: node.players_ct_blog.field_metatags
+field_name: field_metatags
+entity_type: node
+bundle: players_ct_blog
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

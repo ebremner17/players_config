@@ -1,0 +1,8 @@
+uuid: 10dbb894-bf78-485d-a771-b69f9bf59743
+langcode: en
+status: true
+dependencies: {  }
+id: blog
+label: Blog
+locked: false
+pattern: 'M j, Y'

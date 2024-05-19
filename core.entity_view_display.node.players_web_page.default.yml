@@ -21,22 +21,7 @@ third_party_settings:
         layout_id: layout_onecol
         layout_settings:
           label: ''
-        components:
-          fdf62213-19ae-46b2-b1dd-51caaae75d4b:
-            uuid: fdf62213-19ae-46b2-b1dd-51caaae75d4b
-            region: content
-            configuration:
-              id: 'field_block:node:players_web_page:field_metatags'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: metatag_empty_formatter
-                label: above
-                settings: {  }
-                third_party_settings: {  }
-            weight: 0
-            additional: {  }
+        components: {  }
         third_party_settings: {  }
   layout_builder_restrictions:
     allowed_block_categories: {  }

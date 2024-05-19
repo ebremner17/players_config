@@ -1,0 +1,29 @@
+uuid: 0b6f288f-9d16-4bc8-8ed3-119a26c37d08
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blog_image
+    - media.type.image
+    - node.type.players_ct_blog
+id: node.players_ct_blog.field_blog_image
+field_name: field_blog_image
+entity_type: node
+bundle: players_ct_blog
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

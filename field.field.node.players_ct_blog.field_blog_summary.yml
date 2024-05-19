@@ -1,0 +1,21 @@
+uuid: c67a61a6-ac46-4fc5-934e-6eb3e655582a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blog_summary
+    - node.type.players_ct_blog
+  module:
+    - text
+id: node.players_ct_blog.field_blog_summary
+field_name: field_blog_summary
+entity_type: node
+bundle: players_ct_blog
+label: Summary
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
