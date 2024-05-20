@@ -1,0 +1,22 @@
+uuid: ae20453a-22b9-480a-802f-b6b3fcc8f1ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: players_pa_blog
+label: Blog
+type: 'canonical_entities:node'
+pattern: 'blog/[node:title]'
+selection_criteria:
+  8ee869dd-eef7-4e62-bf0d-b86dff44428e:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 8ee869dd-eef7-4e62-bf0d-b86dff44428e
+    context_mapping:
+      node: node
+    bundles:
+      players_ct_blog: players_ct_blog
+selection_logic: and
+weight: -5
+relationships: {  }
