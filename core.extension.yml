@@ -67,6 +67,8 @@ module:
   recaptcha: 0
   responsive_image: 0
   responsive_menus: 0
+  schema_metatag: 0
+  schema_place: 0
   search: 0
   shortcut: 0
   simple_sitemap: 0
