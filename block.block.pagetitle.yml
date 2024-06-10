@@ -2,8 +2,6 @@ uuid: 7c86086c-163c-449d-9cfd-d0bf4d6de220
 langcode: en
 status: true
 dependencies:
-  module:
-    - system
   theme:
     - players_theme
 id: pagetitle
@@ -17,8 +15,4 @@ settings:
   label: 'Page title'
   label_display: '0'
   provider: core
-visibility:
-  request_path:
-    id: request_path
-    negate: false
-    pages: /users
+visibility: {  }
