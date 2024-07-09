@@ -6,8 +6,8 @@ name: 'Player''s Inc.'
 mail: bill@playersinc.ca
 slogan: ''
 page:
-  403: ''
-  404: ''
+  403: /node/87
+  404: /node/87
   front: /node/87
 admin_compact_mode: false
 weight_select_max: 100
