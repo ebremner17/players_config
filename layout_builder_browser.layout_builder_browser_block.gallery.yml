@@ -1,0 +1,11 @@
+uuid: 3c9b2832-aef4-4c90-b616-5d239d61f744
+langcode: en
+status: true
+dependencies: {  }
+id: gallery
+block_id: cbl_gallery
+category: lbb_cat_content
+label: Gallery
+image_path: /themes/custom/players_theme/images/icons/imagegallery.svg
+image_alt: 'Image gallery'
+weight: null
