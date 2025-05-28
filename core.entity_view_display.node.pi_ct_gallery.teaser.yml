@@ -1,0 +1,38 @@
+uuid: 6424abd6-c21b-4f6b-aea3-f766577245d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pi_ct_gallery.field_gallery_caption
+    - field.field.node.pi_ct_gallery.field_gallery_date
+    - field.field.node.pi_ct_gallery.field_gallery_media
+    - node.type.pi_ct_gallery
+  module:
+    - datetime
+    - user
+id: node.pi_ct_gallery.teaser
+targetEntityType: node
+bundle: pi_ct_gallery
+mode: teaser
+content:
+  field_gallery_date:
+    type: datetime_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_gallery_media:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_gallery_caption: true
+  links: true
